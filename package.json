@@ -1,0 +1,29 @@
+{
+  "name": "training_responsive_webdesign",
+  "version": "1.0.0",
+  "description": "a training project for responsive web design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	  "serve": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavacreamTraining/responsive_webdesign.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "responsive"
+  ],
+  "author": "Javacream",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavacreamTraining/responsive_webdesign/issues"
+  },
+  "homepage": "https://github.com/JavacreamTraining/responsive_webdesign#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
