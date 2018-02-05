@@ -1,0 +1,15 @@
+body {
+    font: normal 100% Helvetica, sans-serif;
+  background: #e3e0d9;
+    color: #000;
+}
+h1 {
+     font-size: 1.5em; /* 24px / 16px */
+     font-family: 'ChunkFiveRegular';
+     font-weight: normal;
+}
+span{
+  font-size: 0.5em; /* 12px / 24px */
+  display: block;
+  font-family: Helvetica;
+}

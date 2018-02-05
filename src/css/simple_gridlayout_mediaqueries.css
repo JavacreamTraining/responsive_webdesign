@@ -1,0 +1,78 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+    display:block;
+}
+body {
+    background: #fff;
+    color: #333;
+    font: 100%/1.5em Georgia, 'Times New Roman', serif;
+}
+p,
+ul,
+ol {
+    margin-bottom: 1em
+}
+
+@media screen and (max-width: 800px){
+  body {
+       background-color: lightblue;
+   }
+   .main {
+       width: 100%;
+   }
+
+   aside {
+       width: 100%;
+   }
+   aside img
+   {
+   	width: 100%;
+   	max-width: 100%;
+   }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  body {
+       background-color: red;
+   }
+   .main {
+   	float: left;
+       width: 50%; /* 624/948 */
+   }
+
+   aside {
+       float: right;
+       width: 50%; /* 300/948 */
+   }
+   aside img
+   {
+   	width: 100%;
+   	max-width: 100%;
+   }
+
+}
+@media screen and (min-width: 1000px) {
+  body {
+       background-color: lightgreen;
+   }
+
+   .main {
+   	float: left;
+       width: 65.8227848%; /* 624/948 */
+   }
+
+   aside {
+       float: right;
+       width: 31.6455696%; /* 300/948 */
+   }
+   aside img
+   {
+   	width: 100%;
+   	max-width: 100%;
+   }
+
+}
+#container {
+    margin: auto 0;
+    overflow: hidden;
+	width: 95%;
+	padding: .625em 1.0548523% 1.5em; /* 10px/16px, 10px/948, 24px/16px */
+}
