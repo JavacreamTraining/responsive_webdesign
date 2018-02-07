@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	  "serve": "lite-server"
+    "less": "node ./node_modules/less-watch-compile -w src/less -o dist/css",
+    "serve": "lite-server",
+    "start": "concurrently \"npm run less\" \"npm run serve\""
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,12 @@
   },
   "homepage": "https://github.com/JavacreamTraining/responsive_webdesign#readme",
   "devDependencies": {
+    "concurrently": "^3.5.1",
+    "less": "^2.7.3",
+    "less-watch-compile": "^1.1.8",
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "w3-css": "^4.0.4"
   }
 }
